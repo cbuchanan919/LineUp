@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D44CD7EB-0CEC-4B0B-9D4B-C2CEE1C31A79}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>LineUp.My.MyApplication</StartupObject>
+    <RootNamespace>LineUp</RootNamespace>
+    <AssemblyName>Line Up</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>\\btp-fs\Shared\Computer\BTP Programs\LineUp\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>LineUp</ProductName>
+    <PublisherName>Bible Truth Publishers</PublisherName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>100</ApplicationRevision>
+    <ApplicationVersion>3.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Line Up.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Line Up.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\LineUp.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C53D41978D071862A488852DE77574D1E35462D7</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>LineUp_2_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>Line Up.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>Line Up.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'">
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'">
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Chipmunk">
+      <HintPath>..\MacyApps\Chipmunk.dll</HintPath>
+    </Reference>
+    <Reference Include="Falcon.PageComposer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MacyApps\Falcon.PageComposer.dll</HintPath>
+    </Reference>
+    <Reference Include="Falcon.SiteCommon">
+      <HintPath>..\MacyApps\Falcon.SiteCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="Falcon.Toolkit">
+      <HintPath>..\MacyApps\Falcon.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Utilities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Utilities\bin\Debug\Utilities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+    <Import Include="Utilities" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Classes\Info\JQBarcodeInfo.vb" />
+    <Compile Include="Classes\Info\JQProjectDirInfo.vb" />
+    <Compile Include="Classes\IO\JQProjectDirIO.vb" />
+    <Compile Include="Classes\IO\PdfJobTicketIO.vb" />
+    <Compile Include="Classes\Printer\GetPrinterStatus.vb" />
+    <Compile Include="Classes\Printer\PrinterGui.vb" />
+    <Compile Include="Classes\Printer\PrinterMgmt.vb" />
+    <Compile Include="Classes\Printer\PrinterQueueInfo.vb" />
+    <Compile Include="Classes\_ Misc\Constants.vb" />
+    <Compile Include="Classes\_ Misc\EdgeWebViewer2_EvergreenSetup.vb" />
+    <Compile Include="Classes\Info\EmailLogInfo.vb" />
+    <Compile Include="Classes\IO\Email_CheckProofRequestsIO.vb" />
+    <Compile Include="Classes\Info\JQProductionDirInfo.vb" />
+    <Compile Include="Classes\IO\JQBarcodeIO.vb" />
+    <Compile Include="Classes\IO\EmailLogIO.vb" />
+    <Compile Include="Classes\IO\JQNoteIO.vb" />
+    <Compile Include="Classes\IO\JQRowIO.vb" />
+    <Compile Include="Classes\IO\UvProductInfoIO.vb" />
+    <Compile Include="Classes\Info\JQNoteInfo.vb" />
+    <Compile Include="Classes\IO\JQTimeUpdateIO.vb" />
+    <Compile Include="Classes\IO\PersonalizeIO.vb" />
+    <Compile Include="Classes\Info\Personalize_custDataTable.vb" />
+    <Compile Include="Classes\IO\IndesignIO_Impose.vb" />
+    <Compile Include="Classes\Printer\PrinterInfo.vb" />
+    <Compile Include="Classes\IO\JQProductionIO.vb" />
+    <Compile Include="Classes\IO\SW-ShareWordIO.vb" />
+    <Compile Include="Classes\IO\SW-WordConnectionIO.vb" />
+    <Compile Include="Classes\Info\TractInfo.vb" />
+    <Compile Include="Forms\ctrlFormPrinters.Designer.vb">
+      <DependentUpon>ctrlFormPrinters.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ctrlFormPrinters.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ctrlWeb.Designer.vb">
+      <DependentUpon>ctrlWeb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ctrlWeb.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPrintTC.Designer.vb">
+      <DependentUpon>frmPrintTC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPrintTC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWebr.designer.vb">
+      <DependentUpon>frmWebr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWebr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmEmailLogViewer.Designer.vb">
+      <DependentUpon>frmEmailLogViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmEmailLogViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmImposeBkOrPam.Designer.vb">
+      <DependentUpon>frmImposeBkOrPam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmImposeBkOrPam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\Info\PersonalizeMxInfo.vb" />
+    <Compile Include="Classes\Info\PersonalizeRowInfo.vb" />
+    <Compile Include="Classes\Info\JQProductionFileInfo.vb" />
+    <Compile Include="Classes\Info\UvProductInfo.vb" />
+    <Compile Include="Classes\Info\JQRowInfo.vb" />
+    <Compile Include="Forms\EmailDialog.Designer.vb">
+      <DependentUpon>EmailDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EmailDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCustSearch.Designer.vb">
+      <DependentUpon>frmCustSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCustSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmImposeCalendars.Designer.vb">
+      <DependentUpon>frmImposeCalendars.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmImposeCalendars.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmJobQ_NewJob.Designer.vb">
+      <DependentUpon>frmJobQ_NewJob.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmJobQ_NewJob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmBkCovManager.Designer.vb">
+      <DependentUpon>frmBkCovManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmBkCovManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmProdSearch.Designer.vb">
+      <DependentUpon>frmProdSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmProdSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmBarcodes.Designer.vb">
+      <DependentUpon>frmBarcodes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmBarcodes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmHelp.Designer.vb">
+      <DependentUpon>frmHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSW-Manager.Designer.vb">
+      <DependentUpon>frmSW-Manager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSW-Manager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Archive\frmTest.Designer.vb">
+      <DependentUpon>frmTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Archive\frmTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTractPrev.Designer.vb">
+      <DependentUpon>frmTractPrev.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmTractPrev.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ImposeTractHomePrint.Designer.vb">
+      <DependentUpon>ImposeTractHomePrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ImposeTractHomePrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Archive\NewHelp.Designer.vb">
+      <DependentUpon>NewHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Archive\NewHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Archive\PcComposeTest.vb" />
+    <Compile Include="Forms\FrmLineUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmLineUp.Designer.vb">
+      <DependentUpon>FrmLineUp.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="Forms\YearEndAcctDialog.Designer.vb">
+      <DependentUpon>YearEndAcctDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\YearEndAcctDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\ctrlFormPrinters.resx">
+      <DependentUpon>ctrlFormPrinters.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ctrlWeb.resx">
+      <DependentUpon>ctrlWeb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EmailDialog.resx">
+      <DependentUpon>EmailDialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPrintTC.resx">
+      <DependentUpon>frmPrintTC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWebr.resx">
+      <DependentUpon>frmWebr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCustSearch.resx">
+      <DependentUpon>frmCustSearch.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmEmailLogViewer.resx">
+      <DependentUpon>frmEmailLogViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmImposeCalendars.resx">
+      <DependentUpon>frmImposeCalendars.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmImposeBkOrPam.resx">
+      <DependentUpon>frmImposeBkOrPam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmJobQ_NewJob.resx">
+      <DependentUpon>frmJobQ_NewJob.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmLineUp.en-US.resx">
+      <DependentUpon>FrmLineUp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmBkCovManager.resx">
+      <DependentUpon>frmBkCovManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmProdSearch.resx">
+      <DependentUpon>frmProdSearch.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmBarcodes.resx">
+      <DependentUpon>frmBarcodes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmHelp.resx">
+      <DependentUpon>frmHelp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSW-Manager.resx">
+      <DependentUpon>frmSW-Manager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Archive\frmTest.resx">
+      <DependentUpon>frmTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTractPrev.resx">
+      <DependentUpon>frmTractPrev.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Archive\NewHelp.resx">
+      <DependentUpon>NewHelp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmLineUp.resx">
+      <DependentUpon>FrmLineUp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ImposeTractHomePrint.resx">
+      <DependentUpon>ImposeTractHomePrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\YearEndAcctDialog.resx">
+      <DependentUpon>YearEndAcctDialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RefreshWhite.png" />
+    <None Include="Resources\LeftArrow.png" />
+    <None Include="Resources\BackgroundRectangle.png" />
+    <Content Include="Resources\LineUp.ico" />
+    <None Include="Resources\RightArrow.png" />
+    <None Include="Resources\Refresh.png" />
+    <None Include="Resources\Construction.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="InDesign">
+      <Guid>{F4B43528-68EA-4C29-8A18-6FBD8E3C24C4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentFTP">
+      <Version>33.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="iTextSharp">
+      <Version>5.5.13.2</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Web.WebView2">
+      <Version>1.0.774.44</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,234 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="alignSheet11x17" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Alignment Sheets\11x17 alignment sheet.pdf</Value>
+    </Setting>
+    <Setting Name="alignSheet12x18" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Alignment Sheets\12x18 Alignment Sheet.pdf</Value>
+    </Setting>
+    <Setting Name="dirResources" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\shared\Computer\BTP Programs\LineUp\Resources\</Value>
+    </Setting>
+    <Setting Name="dirBkBod" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Books\Bodies\4up 2cut\</Value>
+    </Setting>
+    <Setting Name="dirBkBodBleed" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Books\Bodies\4up 3cut Full Bleed\</Value>
+    </Setting>
+    <Setting Name="dirBkCov" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Books\Covers\2up 12x18\</Value>
+    </Setting>
+    <Setting Name="dirBrochure" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Brochures\</Value>
+    </Setting>
+    <Setting Name="dirChart" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Charts\</Value>
+    </Setting>
+    <Setting Name="dirLeaflet" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Leaflets\</Value>
+    </Setting>
+    <Setting Name="dirMiniPamBod" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Pamphlets\Bodies\Mini-Pamphlet\</Value>
+    </Setting>
+    <Setting Name="dirMiniPamCov" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Pamphlets\Covers\Mini-Pamphlet\</Value>
+    </Setting>
+    <Setting Name="dirPamBod" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Pamphlets\Bodies\Pamphlet\</Value>
+    </Setting>
+    <Setting Name="dirPamCov" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Pamphlets\Covers\Pamphlet\</Value>
+    </Setting>
+    <Setting Name="dirWebProd" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Web\Products\3 Product Pics Master\</Value>
+    </Setting>
+    <Setting Name="dirHymnbookBod" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Hymnbooks\Bodies\</Value>
+    </Setting>
+    <Setting Name="dirHymnbookCov" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Hymnbooks\Covers\</Value>
+    </Setting>
+    <Setting Name="dirTractCard" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Tracts\Tract Cards\</Value>
+    </Setting>
+    <Setting Name="dirCdAlbumCov" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\CDs\Album Covers\2up on 11x17\</Value>
+    </Setting>
+    <Setting Name="dirBkBod12x9" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Books\Bodies\4up 2cut - 12x18</Value>
+    </Setting>
+    <Setting Name="dirBkCov12x9" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Books\Covers\1up 12x18</Value>
+    </Setting>
+    <Setting Name="dirMiniEconBkCov" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\shared\Production\Books\Covers\4up 12x18 - Economy</Value>
+    </Setting>
+    <Setting Name="dirMiniEconBkBod" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\shared\Production\Books\Bodies\8up - MiniBook Economy</Value>
+    </Setting>
+    <Setting Name="eServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="ePort" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="ePassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="eSendAsUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">btporders@bibletruthpublishers.com</Value>
+    </Setting>
+    <Setting Name="eMailTo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">btporders@bibletruthpublishers.com</Value>
+    </Setting>
+    <Setting Name="PrEBookDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Print &amp; Ebook Projects\Books\</Value>
+    </Setting>
+    <Setting Name="PrEChartDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Print &amp; Ebook Projects\Charts\</Value>
+    </Setting>
+    <Setting Name="PrEHymnBookDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Print &amp; Ebook Projects\Hymnbooks\</Value>
+    </Setting>
+    <Setting Name="PrELeafletDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Print &amp; Ebook Projects\leaflet\</Value>
+    </Setting>
+    <Setting Name="PrEPamphletDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Print &amp; Ebook Projects\Pamphlets\</Value>
+    </Setting>
+    <Setting Name="PrEPeriodicals" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\shared\Print &amp; Ebook Projects\Periodicals\</Value>
+    </Setting>
+    <Setting Name="periodicals" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bis;eg;ml;tc</Value>
+    </Setting>
+    <Setting Name="PrESearchLoc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Print &amp; Ebook Projects\Books\;\\btp-fs\Shared\Print &amp; Ebook Projects\Charts\;\\btp-fs\Shared\Print &amp; Ebook Projects\Hymnbooks\;\\btp-fs\Shared\Print &amp; Ebook Projects\leaflet\;\\btp-fs\Shared\Print &amp; Ebook Projects\Pamphlets\;\\btp-fs\shared\Print &amp; Ebook Projects\Periodicals\</Value>
+    </Setting>
+    <Setting Name="Cost_20lbPaper" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0.0122 Cost per Sheet. Note: Please leave number at the beginning! 10-13-2014</Value>
+    </Setting>
+    <Setting Name="Cost_24lbPaper" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0.01635 Cost per sheet. Note: Please leave number at the beginning! 10-13-2014</Value>
+    </Setting>
+    <Setting Name="Cost_PamCov" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.06 Cost per Sheet. Note: Please leave number at the beginning! 10-13-2014</Value>
+    </Setting>
+    <Setting Name="Cost_BookCov" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0.076 Cost per sheet. Note: Please leave number at the beginning! 10-13-2014</Value>
+    </Setting>
+    <Setting Name="Cost_TCCov" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0.03122 Cost per sheet. Note: Please leave number at the beginning! 10-13-2014</Value>
+    </Setting>
+    <Setting Name="Cost_Laminate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0.124255 Cost per 18 inches per roll. Note: Please leave number at the beginning! 10-13-2014</Value>
+    </Setting>
+    <Setting Name="Cost_ColorClick" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.05 Cost per side / click. Note: Please leave number at the beginning! 10-13-2014</Value>
+    </Setting>
+    <Setting Name="Cost_BlackClick" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.0048 Cost per side / click. Note: Please leave number at the beginning! 10-13-2014</Value>
+    </Setting>
+    <Setting Name="Cost_8_5x11_20lbPaper" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.006 Cost per sheet. Note: Please leave number at the beginning! 10-13-2014</Value>
+    </Setting>
+    <Setting Name="Cost_12x18_20lb" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Cost_12x18_24lb" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="dirMxOrders" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-uv\UV\BTP\MX.ORDERS\</Value>
+    </Setting>
+    <Setting Name="dirMxXML" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-uv\UV\BTP\MX.XML\</Value>
+    </Setting>
+    <Setting Name="MxCustomPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-uv\UV\BTP\MX.CUSTOM\CustomOrders.xml</Value>
+    </Setting>
+    <Setting Name="dir8101IDs" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\shared\Production\Pageup\Personalize\GospelOfPeace\Composed\</Value>
+    </Setting>
+    <Setting Name="dir6120IDs" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Tracts\CTC\Composed Imprints\</Value>
+    </Setting>
+    <Setting Name="dir6880IDs" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Calendars\MJNC\Composed Imprints\</Value>
+    </Setting>
+    <Setting Name="dir7427IDs" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Calendars\CPC\Composed Imprints\</Value>
+    </Setting>
+    <Setting Name="PcConfigPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ImpositionConfig.xml</Value>
+    </Setting>
+    <Setting Name="bkCovImposeTemplatePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Books\Imposition\12x18 2UP Book Cover Layout.indd</Value>
+    </Setting>
+    <Setting Name="dirMiniGiftBkCov" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\shared\Production\Books\Covers\4up 12x18 - Gift</Value>
+    </Setting>
+    <Setting Name="dirMiniGiftBkBod" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\shared\Production\Books\Bodies\8up Full Bleed - MiniBook Gift\</Value>
+    </Setting>
+    <Setting Name="dir7427Users" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\shared\Production\Calendars\CPC\Users\</Value>
+    </Setting>
+    <Setting Name="dir6880Users" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Calendars\MJNC\Users\</Value>
+    </Setting>
+    <Setting Name="dir6120Users" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Tracts\CTC\Users\</Value>
+    </Setting>
+    <Setting Name="dir8101Users" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\shared\Production\Pageup\Personalize\GospelOfPeace\Users</Value>
+    </Setting>
+    <Setting Name="dirShareWordProjects" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\shared\Print &amp; Ebook Projects\ShareWord\</Value>
+    </Setting>
+    <Setting Name="dirShareWordProduction" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\shared\Production\ShareWord\</Value>
+    </Setting>
+    <Setting Name="dirShareWordJohnK" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\pc-john\ShareWord\</Value>
+    </Setting>
+    <Setting Name="dir42194IDs" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\Shared\Production\Custom Books</Value>
+    </Setting>
+    <Setting Name="dirShareWordJohnDocuments" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\pc-john\Documents</Value>
+    </Setting>
+    <Setting Name="dirInddScripts" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\shared\Computer\Macros-Actions-Presets-Droplets\Indesign\Scripts\</Value>
+    </Setting>
+    <Setting Name="dirHomePrintExportLoc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\shared\Web\Products\2 New and Updated Pics\</Value>
+    </Setting>
+    <Setting Name="eMailProofReportTo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cbuchanan@bibletruthpublishers.com;dmacy@bibletruthpublishers.com</Value>
+    </Setting>
+    <Setting Name="dirAlignmentSheet" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\btp-fs\shared\Production\Alignment Sheets\</Value>
+    </Setting>
+    <Setting Name="SqlServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">btp-sql</Value>
+    </Setting>
+    <Setting Name="SqlProductsDatabase" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BTP_80_Products</Value>
+    </Setting>
+    <Setting Name="SqlUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="SqlPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="SqlLineupDatabase" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CB_Job_Q</Value>
+    </Setting>
+    <Setting Name="dirPeriodicals" Type="System.String" Scope="User">
+      <Value Profile="(Default)">X:\Production\Periodicals\</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
